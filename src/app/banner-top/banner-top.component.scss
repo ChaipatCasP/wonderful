@@ -1,0 +1,20 @@
+.image-slider {
+  width: 100%;
+  // height: 200px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .image-slider  {
+    width: 50%;
+  }
+}
